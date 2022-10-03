@@ -1,0 +1,54 @@
+
+.carousel {
+    height: 85vh;
+
+    .carousel-inner {
+        height: inherit;
+
+        img {
+            height: inherit;
+        }
+    }
+}
+
+.sliderWrp {
+    margin: 6rem 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    h1 {
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+    }
+
+    .sliderNav {
+        margin-bottom: 4rem;
+
+        .slick-arrow {
+            &:before {
+                color: #164893;
+            }
+        }
+
+        .slick-slide {
+            .btn-primary {
+                background: #164893;
+                border-color: #164893;
+                color: #fff;
+                font-size: 1.2rem;
+                font-weight: 600;
+                padding: 0.5rem 1.25rem;
+            }
+
+            &.slick-current {
+                .btn {
+                    background: #50acb7;
+                    border-color: #50acb7;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,31 @@
+
+* {
+    box-sizing: border-box;
+    unicode-bidi: embed;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-size: 1rem;
+    color: #292827;
+}
+
+[data-grid~="container"] {
+    max-width: calc(1920px + 10%);
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+p, a {
+    color: #292827;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}
